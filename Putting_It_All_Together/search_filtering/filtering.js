@@ -54,8 +54,6 @@ $(document).ready(function() {
   var categories = items.map(function(item) {
     return item.category;
   });
-  var $items = $('main li');
-  var $categories = $(':checkbox');
 
   categories = unique(categories);
 
@@ -70,9 +68,7 @@ $(document).ready(function() {
   });
 
   $(':checkbox').on("change", function() {
-    var $checkbox = $(this);
-    var checked = $checkbox.is(":checked");
-    var category = $checkbox.val();
+    var category = $(this).val();
     var category_items;
 
     category_items = items.filter(function(item) {
