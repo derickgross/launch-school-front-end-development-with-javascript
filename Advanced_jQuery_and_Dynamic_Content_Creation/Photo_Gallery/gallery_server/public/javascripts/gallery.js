@@ -46,10 +46,6 @@ $(function() {
     });
   }
 
-  function showImageFor(photo_id) {
-    $('#slides').prepend($("figure[data-id=" + photo_id + "]"));
-  }
-
   function displayPhoto(photo_id) {
     $("figure[data-id=" + photo_id + "]").fadeIn(fade_duration);
     renderPhotoInformation(photo_id - 1);
