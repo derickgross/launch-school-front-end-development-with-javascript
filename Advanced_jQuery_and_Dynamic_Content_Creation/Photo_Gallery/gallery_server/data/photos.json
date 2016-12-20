@@ -1,0 +1,25 @@
+[{
+  "src": "http://placehold.it/1280x1024",
+  "title": "City Lights",
+  "caption": "She keeps a picture of me in her apartment in the city.",
+  "created_at": "3/31/15",
+  "likes": 5,
+  "favorites": 2,
+  "id": 1
+}, {
+  "src": "http://placehold.it/1280x1024/ffffff/0066cc",
+  "title": "Happy Dog",
+  "caption": "Karmela getting a back rub.",
+  "created_at": "4/1/15",
+  "likes": 0,
+  "favorites": 0,
+  "id": 2
+}, {
+  "src": "http://placehold.it/1280x1024/0066cc/ffffff",
+  "title": "Down by the Stream",
+  "caption": "Tell me about your snake tatoo.",
+  "created_at": "4/1/15",
+  "likes": 1,
+  "favorites": 1,
+  "id": 3
+}]

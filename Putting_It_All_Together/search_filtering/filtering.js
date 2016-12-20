@@ -8,7 +8,7 @@ function unique(array) {
   return output;
 };
 
-$(document).ready(function() {
+$(function() {
   var items = [{
     "title": "The Legend of Zelda: Majora's Mask 3D",
     "id": 1,
@@ -67,7 +67,7 @@ $(document).ready(function() {
     $('aside ul input').last().attr("value", category);
   });
 
-  $(':checkbox').on("change", function() {
+  $('input:checkbox').on("change", function() {
     var category = $(this).val();
     var category_items;
 

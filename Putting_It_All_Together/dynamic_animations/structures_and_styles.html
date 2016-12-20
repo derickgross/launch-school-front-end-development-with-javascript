@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./structures_and_styles.js"></script>
+    <link rel="stylesheet" href="structures_and_styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Dynamic Animations, Part 1:</h1>
+      <h2>Structure and Styles</h2>
+      <div id="canvas">
+      </div>
+
+      <p>
+        <a href="#" id="animate">Start</a>
+        |
+        <a href="#" id="stop">Stop</a>
+        |
+        <a href="#" id="reset">Reset</a>
+      </p>
+
+      <form action="" method="post">       
+        <fieldset>
+          <h1>Add a shape</h1>
+          <h2>Type</h2>
+
+          <ul>
+            <li><label><input type="radio" name="shape_type" value="square" />Square</label></li>
+            <li><label><input type="radio" name="shape_type" value="circle" />Circle</label></li>
+            <li><label><input type="radio" name="shape_type" value="star" />Star</label></li>
+          </ul>
+
+          <dl>
+            <dt>
+              <label for="start_x">Starting Point</label>
+            </dt>
+            <dd>
+              <input type="number" name="start_x" placeholder="x:" />
+              <input type="number" name="start_y" placeholder="y:" />
+            </dd>
+            <dt>
+              <label for="end_x">Ending Point</label>
+            </dt>
+            <dd>
+              <input type="number" name="end_x" placeholder="x:" />
+              <input type="number" name="end_y" placeholder="y:" />
+            </dd>
+          </dl>
+
+          <input type="submit" value="Add" />
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html> 
